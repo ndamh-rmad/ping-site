@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Tahoma', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  margin-top: 20vh;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #00ffd0;
+}
+
+button {
+  background-color: #00c851;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007e33;
+}
+
+.signal-icon {
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+#ping-result {
+  margin-top: 15px;
+  font-size: 1.2em;
+}
